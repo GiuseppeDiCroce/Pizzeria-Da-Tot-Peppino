@@ -20,7 +20,7 @@
         <!-- Header -->
         <header class="tm-header">
             <div class="tm-header-inner">
-                <span class="tm-site-icon">🥗</span>
+                <span class="tm-site-icon">🍕</span>
                 <h1 class="tm-site-title">Pizzeria da Toto e Peppino</h1>
             </div>
         </header>
@@ -28,24 +28,31 @@
         <!-- Navigation Tabs -->
         <nav class="tm-nav">
             <ul class="tm-nav-ul">
-                <li class="tm-nav-li"><a href="#Pizze" class="tm-nav-link active" onclick="openTab(event, 'Pizze')">Pizze</a></li>
-                <li class="tm-nav-li"><a href="#Dolci" class="tm-nav-link" onclick="openTab(event, 'Dolci')">Dolci</a></li>
-                <li class="tm-nav-li"><a href="#Bevande" class="tm-nav-link" onclick="openTab(event, 'Bevande')">Bevande</a></li>
+                <li class="tm-nav-li"><a href="#Antipasti" class="tm-nav-link" onclick="openTab(event, 'Antipasti')">Antipasti🥗</a></li>
+                <li class="tm-nav-li"><a href="#Pizze" class="tm-nav-link active" onclick="openTab(event, 'Pizze')">Pizze🍕</a></li>
+                <li class="tm-nav-li"><a href="#Dolci" class="tm-nav-link" onclick="openTab(event, 'Dolci')">Dolci🍰</a></li>
+                <li class="tm-nav-li"><a href="#Bevande" class="tm-nav-link" onclick="openTab(event, 'Bevande')">Bevande🥤</a></li>
             </ul>
         </nav>
 
         <!-- Menu Content -->
         <div class="tm-section">
             <!-- elenco antipasti -->
-            <div id="Antipasti" class="tm-tab-content active">
-                <p class="tm-placeholder-text">Antipasti disponibili: fritto misto, oatatine fritte, suppli, crocchette, zeppole</p>
+            <div id="Antipasti" class="tm-tab-content">
                 <div class="tm-list">
-                    <!-- Gli studenti aggiungeranno qui gli antipasti -->
                     <div class="tm-list-item">
-                        <p class="tm-placeholder-text">Sezione Antipasti in attesa di implementazione...</p>
+                        <div class="tm-black-bg tm-list-item-text">
+                            <h3 class="tm-list-item-name">Fritto Misto <span class="tm-list-item-price">&euro;7.50</span></h3>
+                            <p class="tm-list-item-description">Misto dei fritti della casa </p>
+                            <img src="img/fritto-misto.webp" alt="Image" class="tm-list-item-img">
+                            <h3 class="tm-list-item-name"> Mix di patate <span class="tm-list-item-price">&euro;6.50</span></h3>
+                            <p class="tm-list-item-description">Mix variegato dei nostri tipi di patatine fritte </p>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
             
             <!-- elenco pizze -->
             <div id="Pizze" class="tm-tab-content active">
